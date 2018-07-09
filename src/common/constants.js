@@ -52,3 +52,6 @@ export const COMPANY_HOLIDAYS = [
   { date: '2018-07-13', type: '放假', name: 'turboweek' },
   { date: '2018-07-14', type: '放假', name: 'turboweek' },
 ];
+
+export const LS_TEAM_MEMBERS = 'LS_TEAM_MEMBERS';
+export const LS_DATE_RANGE = 'LS_DATE_RANGE';

@@ -22,4 +22,8 @@ class RoleTag extends React.Component {
   }
 }
 
+RoleTag.propTypes = {
+  role: PropTypes.oneOf(Object.values(ROLE)),
+};
+
 export default RoleTag;
